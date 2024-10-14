@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 {
   users.users = {
     user = {
@@ -20,5 +20,16 @@
 
   services = {
     getty.autologinUser = "user";
+  };
+
+  services.kmscon = {
+    enable = true;
+    autologinUser = "user";
+    fonts = [
+      {
+        name = "Ubuntu Mono";
+        package = pkgs.ubuntu_font_family;
+      }
+    ];
   };
 }

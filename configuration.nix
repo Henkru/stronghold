@@ -56,10 +56,6 @@
     terminal = "tmux-256color";
   };
 
-  environment.sessionVariables = {
-    TERM = "screen";
-  };
-
   networking.hostName = "stronghold";
   isoImage.volumeID = "stronghold";
   isoImage.isoName = "stronghold_${system}.iso";
