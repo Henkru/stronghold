@@ -131,11 +131,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1728906184,
-        "narHash": "sha256-f3n2IiJhWVceVwKqC/XYgmVsfRe1wM18DLl/atQwFSM=",
+        "lastModified": 1728909772,
+        "narHash": "sha256-7aP4/ZbA+zpdMeEMejZTlTlSoOthvz2ZveQGpWE6Uic=",
         "owner": "Henkru",
         "repo": "seal",
-        "rev": "759f32650788ea207e4cc639f95e3baa61ed8a4f",
+        "rev": "8845247db08341eb5a7f556c6d1d57129a6b53ad",
         "type": "github"
       },
       "original": {
