@@ -29,6 +29,7 @@
     paperkey
     pgpdump
     pwgen
+    sha2wordlist
 
     rage
     age-plugin-yubikey
