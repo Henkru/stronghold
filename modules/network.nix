@@ -14,4 +14,9 @@
     wireless.enable = false;
     networkmanager.enable = lib.mkForce false;
   };
+
+  boot.blacklistedKernelModules = [
+    "btusb"
+    "bluetooth"
+  ];
 }
