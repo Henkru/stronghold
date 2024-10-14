@@ -53,6 +53,7 @@
     shortcut = "a";
     baseIndex = 1;
     keyMode = "vi";
+    terminal = "tmux-256color";
   };
 
   networking.hostName = "stronghold";
