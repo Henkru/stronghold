@@ -24,7 +24,6 @@
 
     gnupg
     cryptsetup
-    fido2luks
     opensc
     openssh
     paperkey
