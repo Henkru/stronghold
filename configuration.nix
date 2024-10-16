@@ -48,6 +48,10 @@
     dosfstools
   ];
 
+  environment.sessionVariables = {
+    LD_LIBRARY_PATH = "${pkgs.systemd}/lib/cryptsetup"; # workaround for: https://github.com/NixOS/nixpkgs/issues/265366
+  };
+
   programs.tmux = {
     enable = true;
     shortcut = "a";
